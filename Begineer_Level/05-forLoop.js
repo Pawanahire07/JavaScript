@@ -28,4 +28,20 @@ for (let key in person){
     }*/
 
 //Example
-let fruits = ["apple", "banana", "cherry"];
+let fruit = ["apple", "banana", "cherry"];
+for (let fruits of fruit){
+    console.log(fruits);
+}
+
+    //Real Example
+    const Student = [
+        {name:"shubham", age:22},
+         {name:"Pawan", age:24},
+          {name:"Omkar", age:19}
+    ];
+
+    for (let std of Student){
+        console.log(std.name + " is " + std.age + " years old."); 
+    }
+
+
